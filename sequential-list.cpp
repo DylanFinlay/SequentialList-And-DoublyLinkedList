@@ -7,6 +7,7 @@ size_ = 0;
 }
 
 
+
 SequentialList::~SequentialList() {
 delete[]data_;
 data_ = nullptr;

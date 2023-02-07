@@ -15,8 +15,6 @@ DoublyLinkedList::DoublyLinkedList() {
 
 
 DoublyLinkedList::~DoublyLinkedList() {
-    if (size_ == 0)
-        return;
     for(int i=0; i<size_; i++)
     {
         Node *temp = head_;
@@ -26,9 +24,9 @@ DoublyLinkedList::~DoublyLinkedList() {
     }
     delete head_;
     head_ = nullptr;
-    delete tail_;
     tail_ = nullptr;
     size_ = 0;
+    std::cout<< std::endl << "Destructor worked properly";
 }
 
 
@@ -232,6 +230,7 @@ bool DoublyLinkedList::remove(unsigned int index) {
         tail_ = tail_->prev;
         delete temp;
         temp = nullptr;
+        tail_->next = nullptr;
         size_ --;
         return true;
     }
@@ -292,6 +291,7 @@ bool DoublyLinkedList::remove_back() {
     tail_ = tail_->prev;
     delete temp;
     temp = nullptr;
+    tail_->next = nullptr;
     size_ --;
     return true;
 }

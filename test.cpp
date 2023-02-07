@@ -14,7 +14,7 @@
 
 // Uncomment the .h files when you're ready to start testing
 #include "sequential-list.h"
-//#include "doubly-linked-list.h"
+#include "doubly-linked-list.h"
 //#include "polynomial.h"
 
 // Once uncommented, you will need to modify the CMakeLists.txt

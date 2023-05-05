@@ -1,6 +1,4 @@
-# MTE140: Lab Assignment 1
+# Sequential List and Doubly Linked List 
 
-* Instructions for this lab can be found as a PDF on Learn
-* Follow the instruction to finish and submit your assignment
-* Commit your changes and push them to GitLab
-* Ensure your changes are visible on GitLab prior to the due date
+* This repository contains the header files as well as main files for a c++ implementation of both a sequential list and a doubly linked list.
+* This project was completed for my MTE 140 Data Structures and Algorithms course.

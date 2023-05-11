@@ -1,3 +1,4 @@
+//Full doubly linked list implementation
 #include "doubly-linked-list.h"
 
 DoublyLinkedList::Node::Node(DataType data) {
